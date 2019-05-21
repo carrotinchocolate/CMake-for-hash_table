@@ -8,7 +8,7 @@
 int main()
 {
 
-    std::ifstream in_stream("cano.txt");
+    std::ifstream in_stream("../data/cano.txt");
     std::ofstream output_file("output6.txt");
 
     const int hash_size = 1013;
